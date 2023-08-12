@@ -10,6 +10,9 @@ Uses SQL to query data in S3. Supported file formats are:
 
 ## Data sources
 ## Features
+### Considerations
+* Significant cost savings and performance gains by compressing, partitioning, or converting your data to a columnar format
+
 ### Pros
 * Significant cost savings and performance gains by compressing, partitioning, or converting your data to a columnar format
 * Highly available
@@ -43,3 +46,5 @@ Uses SQL to query data in S3. Supported file formats are:
   * AWS Glue data catalog
   * SageMaker integration
   * Different file formats
+* Come up with 3 use cases and implement 1
+* 
